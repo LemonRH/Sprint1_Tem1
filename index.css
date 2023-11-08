@@ -72,13 +72,13 @@
       background: #e6af2e;
     }
 
-//MEDIA QUERIES
 @media all and (max-width: 800px){
   .section{
     flex-direction: column;
     background: yellow;
   }
   .menu{
+    display: flex;
     flex-direction: column;
     height: auto;
   }
@@ -89,11 +89,15 @@
   .navegacion{
     background-color: #E6EF45;
   }
-}
-@media all and (max-width: 600px){
-  articulos{
+  .aside{
     flex-direction: column;
   }
+}
+@media all and (max-width: 600px){
+  .articulos{
+    flex-direction: column;
+  }
+
 }
 @media all and (max-width: 400px){
   .aside{
